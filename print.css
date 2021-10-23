@@ -1,0 +1,84 @@
+@media print {
+	body {
+		text-align:center;
+		
+		
+	}
+	header{
+		font-size:200%;
+		
+		
+	}
+	#title{
+		display:none;
+		
+		
+	}
+
+	nav{
+		display:none;
+		
+		
+	}
+	#hparth{
+		font-size:200%;
+		
+		
+	}
+	footer{
+		display:none;
+		
+		
+	}
+	#habout{
+		text-shadow:none;
+		font-size:200%;
+		color:black;
+	}
+	#wcpc{
+		border:none;
+		float:left;
+		transform:rotate(0deg);
+	}
+	#pro{
+		text-align:center;
+		
+		
+	}
+	h3{
+		border:none;
+		
+		
+	}
+	#aboutp{
+		
+		width:60%;
+		float:right
+		
+	}
+	#homep{
+		width:60%;
+		float:right;
+		
+		
+	}
+	#hparts{
+		font-size:200%;
+		color:black;
+		text-shadow:none;
+		
+		
+	}
+	#imgthing img{
+		display:none;
+		box-shadow:none;
+		float:left;
+		
+	}
+	#imgthing h3{
+		float:left;
+		display:block;
+		text-align:center;
+		
+	}
+}
