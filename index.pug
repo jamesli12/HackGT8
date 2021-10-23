@@ -1,0 +1,43 @@
+doctype html
+| PASTE YOUR HTML CODE HERE
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1')
+  title HACKGT8 Project
+  link(href='style.css' rel='stylesheet' media='screen')
+  link(href='mobile.css' rel='stylesheet' media='screen and (max-width:501px)')
+  link(href='print.css' rel='stylesheet' media='print')
+#main
+  header#htitle
+    h1#title Insert Title of Website
+  nav#menu
+    ul
+      li
+        a(href='index.html') Home
+      li
+        a(href='resources.html') Resources
+      li
+        a(href='about.html') About
+  h2#hparth How are you?
+  #pro
+    img#conL(src='image/connect.png' alt='Connect Logo' height='200' width='220')
+    section#form
+      form
+        .row
+          .col-lg-6
+            .form-group
+              h3 Name
+              input.form-control(type='text' name='fname')
+              h3 Identifiers
+              input.form-control(type='text' name='ident')
+              h3 Share
+              input.form-control(type='text' size='100' name='rant')
+          .col-lg-6
+            .checkbox
+              label.inline-checkbox
+                input(type='checkbox')
+                | Stay Anonymous
+        button(type='submit') Find Others
+  footer#fhome
+    #nxt
+      a(href='resources.html') Next
