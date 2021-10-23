@@ -2,6 +2,7 @@ const { MongoClient } = require('mongodb');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const express = require('express');
+const path = require('path'); 
 const app = express();
 app.set('view engine', 'pug')
 const port = 3001;
@@ -17,12 +18,12 @@ async function main() {
     var collection = db.collection('posts');
     loadPosts(collection);
     var upload = multer(); //parsing use
-    app.use(express.json());//parsing use
+    app.use(express.json()); //parsing use
     app.use(express.urlencoded({ //parsing use
       extended: true
     }));
     app.use(upload.array());  //parsing use
-    app.use(express.static('public')); //parsing use
+    app.use(express.static(path.join(__dirname, '/public'))); //parsing use
     app.post('/', function(req, res){ //this is called when we hit the submit button
         console.log(req.body); //log the information, just for debug purposes
         Add(collection, req.body); //create a new entry in the database
@@ -32,9 +33,9 @@ async function main() {
             } else {
                 var entries = [];
                 for (var x = 0; x < result.length; x++) {
-                    entries[x] = JSON.stringify(result[x]) + "aaaa";
+                    entries[x] = JSON.stringify(result[x]);
                 }
-                res.render('test.pug', { //send the new webpage to the user
+                res.render('index.pug', { //send the new webpage to the user
                     lines: entries
                 });
             }
@@ -56,8 +57,8 @@ async function loadPosts(collection) { //this is to load the initial webpage wit
             res.send(err);
         } else {
             app.get('/', (req, res) => {
-                res.render('test.pug', {
-                    lines: JSON.stringify(result)
+                res.render('index.pug', {
+                    //lines: JSON.stringify(result)
                 });
             })
         }

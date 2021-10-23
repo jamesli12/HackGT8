@@ -1,0 +1,275 @@
+
+	@font-face{
+		font-family:cabin_sketch;
+		src:url('fonts/CabinSketch-Bold.ttf');
+	}
+
+
+	nav li:hover{
+		background-color:#F08080;
+		font-size:1em;
+	
+	
+	}
+	
+	#menu{
+		text-align:center;
+		background-color:#EEEEEE;
+		
+		height:30px;
+		border-radius:5px;
+		width:90%;
+		background-position:center;
+		margin:0 auto 0 auto;
+		
+		
+		
+	
+	}
+	#menu li{
+		text-decoration:none;
+		display:inline;
+		padding-left:1%;
+		padding-right:1%;
+		background-color:#F08080;
+		padding-top:.5%;
+		padding-bottom:.5%;
+		font-size:1em;
+		
+		font-family:cabin_sketch;
+		margin:5%;
+		border-radius:5px;	
+		float:none;
+	    box-shadow:5px 4px  2px #111111;
+		
+	}
+
+	#menu a{
+		color:#FFFFFF;
+
+	}
+	#menu ul{
+		padding-left:0%;
+		padding-top:1.5%;
+		
+	}
+
+	nav a{
+		color:#FFFFFF;
+
+	
+	}
+	#fhome a{
+		box-shadow:5px 4px  2px #111111;
+		
+		
+	}
+
+
+	a{
+		text-decoration:none;
+
+	
+	
+	}
+	body{
+		width:100%;
+		margin:0 auto 50px auto;
+		min-width:500px;
+		max-width:500px;
+	
+	}
+	#title{
+		display:block;
+		text-align:center;
+		background-color:#F08080;
+		color:#FFFFFF;
+		font-family: 'Righteous', cursive;
+		border-radius:10px;
+		width:95%;
+		margin:10px auto 0 auto;
+		font-size:180%;
+		text-shadow:5px 4px  2px #111111;
+		
+	}	
+	#main{
+		width:70%;
+		height:100%;
+		background-color:rgba(239, 131, 131, .5);
+		background-position:center;
+		margin:10px auto 50px auto;
+		border-radius:10px;
+		padding-bottom:10px;
+		
+		
+	}
+	#htitle{
+		padding-top:1%;
+		
+		
+	}
+	#hparth{
+		font-family: Impact, Charcoal, sans-serif;
+		color:#800000;
+		padding-left:3%;
+		text-align:center;
+		font-size:150%;
+		margin-top:25px;
+	}	
+	#homep{
+		
+		width:auto;
+		padding-left:7%;
+		font-size:90%;
+		color:#FFFFFF;
+		clear:left;
+		float:none;
+		text-indent:5%;
+		margin-right:7%;
+		
+	
+	}
+	#pro{
+		position:relative;
+		width:93%;
+		
+	}
+
+
+
+
+	#wcpc{
+		float:right;
+		
+		margin-left:10px;
+		transform:rotate(5deg);
+		width:120px;
+		height:100px;
+		border:15px solid transparent;
+		border-image: url(image/border1.png) 15 round;
+		
+		
+	}
+	
+
+
+
+	footer{
+		background-color:#EEEEEE;
+		text-align:center;
+		height:28px;
+		border-radius:5px;
+		width:90%;
+		background-position:center;
+		margin:45px auto 0 auto;
+		
+		
+			
+	}
+
+	footer a{
+		color:#FFFFFF;
+		text-decoration:none;
+		display:inline;
+		padding-left:1%;
+		padding-right:1%;
+		background-color:#F08080;
+		padding-top:.5%;
+		padding-bottom:.5%;
+		font-size:1em;
+		font-family:cabin_sketch;
+		margin:5%;
+		border-radius:5px;
+	
+	}
+
+	footer a:hover{
+	
+		background-color:#F08080;
+		font-size:1em;
+	
+	
+
+	
+	}
+	#nxt{
+		padding-top:.3%;
+		
+		
+	}
+	body{
+		background-color:#992222;
+		
+		
+		
+	}
+	#aboutp{
+		width:auto;
+		padding-left:7%;
+		font-size:90%;
+		color:#FFFFFF;
+		clear:left;
+		float:none;
+		text-indent:5%;
+		margin-right:7%;
+		
+	
+	
+	}
+	#habout{
+		font-family: Impact, Charcoal, sans-serif;
+		color:#800000;
+		text-align:center;
+		font-size:150%;
+		margin-top:25px;
+		
+	}	
+	#supercell{
+		text-decoration:none;
+		color:#999999;
+		
+	
+	}
+	#tf2{
+		text-decoration:none;
+		color:#999999;
+		
+
+	}
+	#hparts{
+		font-family: Impact, Charcoal, sans-serif;
+		color:#800000;
+		text-align:center;
+		font-size:150%;
+		margin-top:25px;
+		
+	
+	
+}
+	h3{
+		text-align:center;
+		border:10px ridge white;
+		color:White;
+		
+		
+	}	
+	h3 a{
+		color:#999999;
+		
+	
+	}
+	
+	#imgthing img{
+		display:block;
+		margin:auto;
+		box-shadow:8px 8px 8px #333333;
+		width:120px;
+		height:120px;
+		
+	}
+	#imgthing h3{
+		font-size:95%;
+		
+	}
+	
+	
