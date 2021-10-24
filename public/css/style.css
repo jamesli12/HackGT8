@@ -16,34 +16,26 @@ nav li{
 	font-family:cabin_sketch;
 	margin:5%;
 	border-radius:10px;
-	
-	
-	
 }
+
 #menu{
 	text-align:center;
-	
-	
-	
 }
+
 #menu li{
 	box-shadow:5px 4px  2px #111111;
-	
-	
-	
 }
+
 nav a{
 	color:#FCF2D4;
-
-	
 }
+
 nav li:hover{
 	background-color:#11092C;
 	font-size:2em;
 	box-shadow:8px 7px 2px #111111;
-	
-	
 }
+
 nav{
 	background-color:#FCF2D4;
 	text-align:center;
@@ -54,18 +46,17 @@ nav{
 	margin:0 auto 0 auto;
 	box-shadow:5px 4px  2px #222222;
 }
+
 a{
 	text-decoration:none;
-
-	
-	
 }
+
 body{
 	width:80%;
 	margin:0 auto 50px auto;
-
-	
+	height: 100%;
 }
+
 #title{
 	display:block;
 	text-align:center;
@@ -78,12 +69,10 @@ body{
 	font-size:300%;
 	text-shadow:3px 4px  2px #111111;
 	box-shadow:3px 4px  2px #222222;
-	
 }
+
 #menu ul{
-	padding-left:0%;
-		
-		
+	padding-left:0%;	
 }
 
 #main{
@@ -93,14 +82,20 @@ body{
 	margin:10px auto 50px auto;
 	border-radius:10px;
 	padding-bottom:10px;
-	
-	
 }
+
+#main1{
+	width:800px;
+	background-position:center;
+	margin:10px auto 50px auto;
+	border-radius:10px;
+	padding-bottom:10;
+}
+
 #htitle{
 	padding-top:1%;
-	
-	
 }
+
 #hparth{
 	font-family: Impact, Charcoal, sans-serif;
 	color:#D4A40D;
@@ -108,17 +103,17 @@ body{
 	font-size:150%;
 	text-shadow:3px 2px  2px #333333;
 }
+
 #homep{
 	width:53%;
-	
 	padding-left:5%;
 	font-size:110%;
 	color:#FCF2D4;
 	float:left;
 	text-indent:5%;
 	margin-right:7%;
-	
 }
+
 #form{
 	width:52%;
 	padding-left:5%;
@@ -130,12 +125,11 @@ body{
 }
 
 #wcpc{
-	
 	transform:rotate(5deg);
 	border:20px solid transparent;
 	border-image: url(image/border1.png) 15 round;
-	
 }
+
 footer a{
 	text-decoration:none;
 	display:inline;
@@ -151,6 +145,7 @@ footer a{
 	box-shadow:5px 4px  2px #111111;
 	
 }
+
 footer{
 	background-color:#FCF2D4;
 	text-align:center;
@@ -160,19 +155,14 @@ footer{
 	background-position:center;
 	margin:300px auto 0 auto;
 	box-shadow:5px 4px  2px #111111;
-	
-	
 }
+
 footer a:hover{
-	
 	background-color:#11092C;
 	font-size:2em;
 	box-shadow:8px 7px  2px #111111;
-	
-	
-
-	
 }
+
 footer a{
 	color:#FCF2D4;
 	text-decoration:none;
@@ -186,14 +176,12 @@ footer a{
 	font-family:cabin_sketch;
 	margin:5%;
 	border-radius:10px;
-	
 }
+
 body{
 	background-color:#062942;
-	
-	
-	
 }
+
 #aboutp{
 	width:52%;
 	padding-left:5%;
@@ -202,59 +190,77 @@ body{
 	float:left;
 	text-indent:5%;
 	margin-right:5%;
-	
-	
 }
+
 #habout{
 	font-family: Impact, Charcoal, sans-serif;
 	color:#D4A40D;
 	padding-left:3%;
 	font-size:150%;
 	text-shadow:3px 2px  2px #333333;
-	
-	
-	
 }
-#hparts{
-	font-family: Impact, Charcoal, sans-serif;
-	color:#D4A40D;
-	padding-left:5%;
-	font-size:200%;
-	text-shadow:3px 2px  2px #333333;
-	
-	
-}
+
 h3{
 	text-align:center;
 	border:10px ridge #FCF2D4;
 	background-color:#12486D;
 	color:#FCF2D4;
 	font-size:90%;
-	
-	
 }
+
 h3 a{
 	color:#999999;
-	
-	
 }
+
+#forump {
+	width: 45%;
+	padding-left:5%;
+	padding-right:5%;
+	font-size:110%;
+	color:#11092c;
+	background-color:#FCF2D4;
+	border-radius:4px;
+	float:left;
+	text-indent:5%;
+	margin-right:5%;
+	margin-left:5%;
+	border:5px inset #FFFFFF;
+}
+.stylename {
+	margin-bottom:2%;
+}
+
 #imgthing {
 	width:90%;
 	margin:0 auto 0 auto;
 	
 }
+
 #imgthing img{
 	display:block;
 	margin:auto;
 	box-shadow:8px 8px 8px #333333;
 	
 }
+
 label {
     display: block;
 }
 
-input,
-label {
+input, label {
     margin: .4rem 0;
 }
 
+.footer, .push {
+    height: 100px; /* .push must be the same height as .footer */
+}
+
+.topnav input[type=text] {
+	float: right;
+	padding: 4px;
+	border: 4px ridge #FCF2D4;
+	box-shadow:3px 4px  2px #222222;
+	margin-top: 8px;
+	margin-right: 10%;
+	font-size: 16px;
+}
