@@ -1,6 +1,6 @@
 @font-face{
 	font-family:cabin_sketch;
-	src:url('fonts/CabinSketch-Bold.ttf');
+	src:url('../fonts/CabinSketch-Bold.ttf');
 	
 }
 
@@ -127,7 +127,7 @@ body{
 #wcpc{
 	transform:rotate(5deg);
 	border:20px solid transparent;
-	border-image: url(image/border1.png) 15 round;
+	border-image: url(../image/border1.png) 15 round;
 }
 
 footer a{
@@ -216,6 +216,7 @@ h3 a{
 	width: 45%;
 	padding-left:5%;
 	padding-right:5%;
+	padding-bottom: 20px;
 	font-size:110%;
 	color:#11092c;
 	background-color:#FCF2D4;
