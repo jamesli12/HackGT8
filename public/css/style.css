@@ -221,7 +221,6 @@ h3 a{
 	background-color:#FCF2D4;
 	border-radius:4px;
 	float:left;
-	text-indent:5%;
 	margin-right:5%;
 	margin-left:5%;
 	border:5px inset #FFFFFF;
@@ -260,12 +259,14 @@ input, label {
 	padding: 4px;
 	border: 4px ridge #FCF2D4;
 	box-shadow:3px 4px  2px #222222;
-	margin-top: 8px;
-	margin-right: 10%;
+	margin-top: -10px;
+	margin-right: 2%;
 	font-size: 16px;
 }
 
 .topnav button[type=submit] {
 	float: right;
 	font-size: 16px;
+	margin-top: 34px;
+	margin-right: -60px;
 }
