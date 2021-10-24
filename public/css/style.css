@@ -264,3 +264,8 @@ input, label {
 	margin-right: 10%;
 	font-size: 16px;
 }
+
+.topnav button[type=submit] {
+	float: right;
+	font-size: 16px;
+}

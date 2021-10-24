@@ -3,42 +3,39 @@ html
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1')
-    title HACKGT8 Project
+    title HACKGT8 369
     link(href='css/style.css' rel='stylesheet' media='screen')
-    link(href='css/mobile.css' rel='stylesheet' media='screen and (max-width:501px)')
-    link(href='css/print.css' rel='stylesheet' media='print')
   body
     #main
       header#htitle
-        h1#title Insert Title of Website
-      nav#menu
-        ul
-          li
-            a(href='html/index.html') Home
-          li
-            a(href='html/resources.html') Resources
-          li
-            a(href='html/about.html') About
+        h1#title Welcome
+      form
+        nav#menu
+          ul
+            li
+              a(href='index') Home
+            li
+              a(href='resources') Resources
+            li
+              a(href='about') Forum
       h2#hparth How are you?
-      #pro
-        img#conL(src='../images/connect.png' alt='Connect Logo' height='200' width='220')
+      #pro.push
+        img#conL(src='images/connect.png' alt='Connect Logo' height='200' width='220')
         section#form
-          form(action = "/", method = "POST")
+          form(action='/' , method='POST')
             .row
               .col-lg-6
                 .form-group
                   h3 Name
-                  input.form-control(type='text' name='name')
+                  input.form-control(type='text' name='fname')
                   h3 Identifiers
-                  input.form-control(type='text' name='tag')
+                  input.form-control(type='text' name='ident')
                   h3 Share
-                  input.form-control(type='text' size='100' name='text')
+                  input.form-control(type='text' size='100' name='rant')
               .col-lg-6
                 .checkbox
                   label.inline-checkbox
-                    input(type='checkbox')
+                    input(name='isAnonymous' type='checkbox')
                     | Stay Anonymous
-            button(type='submit' value='Post') Find Others
+            button(type='submit') Submit
       footer#fhome
-        #nxt
-          a(href='test.pug') Next
